@@ -350,16 +350,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   flex-direction: row;
 }
 
-.popup-overlay {
-  visibility: hidden;
-}
-.popup-content {
+#popup1 { 
+  display: flex;
   visibility: hidden;
 }
 
-.popup-overlay.active {
-  visibility: visible;
-}
-.popup-content.active {
+#popup1.active {
   visibility: visible;
 }
