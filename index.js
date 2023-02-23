@@ -32,7 +32,7 @@ $(".project4").on("mouseleave", function(){
 
 
 
-console.log("hello world.");
+console.log("hello world, it is I.");
 
 
 
