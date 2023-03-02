@@ -1,3 +1,80 @@
+.collapse {
+  justify-content:end;
+}
+
+#navbarNavAltMarkup {
+  justify-content: flex end;
+
+}
+
+.navbar-collapse {
+  justify-content:end;
+}
+
+
+.nav-item {
+  display:flex;
+}
+
+.nav-link {
+  display:flex;
+}
+
+.navbar-nav{
+  display:flex end;
+  width:30%;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display:flex;
+  height: 100px;
+  border-bottom:solid #30391A;
+}
+
+
+.navbar-brand {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  width: 18%;
+  font-size:40px !important;
+}
+
+.btn btn-primary {
+  background-color: solid blue;
+}
+
+.btn-success {
+  background-color: #535a40 !important;
+  
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+  
+  background-color: #30391A !important;
+}
+ 
+button1 {
+  cursor: pointer;
+}
+
+.usda-main {
+
+}
+
+
+.usda {
+  background-image:url("https://s3.invisionapp-cdn.com/storage.invisionapp.com/boards/files/203037715.jpg?x-amz-meta-iv=1&x-amz-meta-ck=284b511efce5ea43a7868344a25f1d5f&AWSAccessKeyId=AKIAWCDCF6QSLTS7LRWT&Expires=1680307200&Signature=ZRZWQwK7gUNhLyuqr2dgaj2wbhM%3D");
+} 
+
+
+
+
+
+/*before changes were made*/
 #navBar {
     border-bottom:solid #30391A;
     display:flex ;
