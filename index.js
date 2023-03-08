@@ -31,6 +31,20 @@ $(".project4").on("mouseleave", function(){
 });
 
 
+$(".card").on("mouseenter", function(){
+  $(".card").css("background-color", "grey")
+});
+
+$(".card").on("mouseleave", function(){
+  $(".card").css("background-color", "white")
+});
+
+
+
+
+
+
+
 $("button1").on("mouseenter", function(){
 $("button1").css("background-color", "grey")
 });
@@ -39,10 +53,37 @@ $("button1").on("mouseleave", function(){
 $("button1").css("background-color", "#30391A")
 });
 
+$("button2").on("mouseenter", function(){
+  $("button2").css("background-color", "grey", "border", "2px solid #30391A")
+  });
+  
+  $("button2").on("mouseleave", function(){
+  $("button2").css("background-color", "#30391A")
+  });
 
+  $("button2").on("mouseenter", function(){
+    $("button2").css("border", "2px solid #30391A")
+    });
+    
+    $("button2").on("mouseleave", function(){
+    $("button2").css("border", "none")
+    });
 
-
-
+    $("button2").on("mouseenter", function(){
+      $("button2").css("text-decoration", "underline")
+      });
+      
+      $("button2").on("mouseleave", function(){
+      $("button2").css("text-decoration", "none")
+      });
+  
+      $("button2").on("mouseenter", function(){
+        $("button2").css("color", "#30391A")
+        });
+        
+        $("button2").on("mouseleave", function(){
+        $("button2").css("color", "white")
+        });  
 
 
 console.log("hello world, it is I.");

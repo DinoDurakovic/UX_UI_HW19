@@ -70,6 +70,25 @@ button1 {
   background-image:url("https://s3.invisionapp-cdn.com/storage.invisionapp.com/boards/files/203037715.jpg?x-amz-meta-iv=1&x-amz-meta-ck=284b511efce5ea43a7868344a25f1d5f&AWSAccessKeyId=AKIAWCDCF6QSLTS7LRWT&Expires=1680307200&Signature=ZRZWQwK7gUNhLyuqr2dgaj2wbhM%3D");
 } 
 
+.card-body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.boxx {
+  width: 100vw !important;
+  height: auto !important;
+  margin: 0;
+}
 
 
 
@@ -294,7 +313,7 @@ button1 {
   height: 500px;
   margin:2% 2% 0% 2%;
   grid-area:top;
-  
+  width: 100% \9;
 }
 
 .info {
@@ -310,12 +329,15 @@ button1 {
 
 .view {
   margin: 1%;
+  text-align: center;
 }
 
 .project1 {
   display:grid;
   width: 50%;
   margin: 1%;
+  justify-content: center;
+  align-items: center;
   grid-template-columns:33% 33% 33%;
   grid-template-rows: auto;
   column-gap:0;
@@ -326,15 +348,13 @@ button1 {
 
 #hi {
   display: flex;
-  height: 500px;
+  width: 100% \9;
 }
 
 #hi2 {
-  height: 500px;
 }
 
 #hi3 {
-  height: 500px;
 }
 
 .project2 {
