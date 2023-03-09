@@ -18,38 +18,38 @@ $("button1").css("background-color", "#30391A")
 
 
  
-$("button2").on("mouseenter", function(){
-  $("button2").css("background-color", "grey")
+$(".view").on("mouseenter", function(){
+  $(".view").css("background-color", "grey")
   });
   
-  $("button2").on("mouseleave", function(){
-  $("button2").css("background-color", "#30391A")
+  $(".view").on("mouseleave", function(){
+  $(".view").css("background-color", "#30391A")
   });
 
-  $("button2").on("mouseenter", function(){
-    $("button2").css("cursor", "pointer")
+  $(".view").on("mouseenter", function(){
+    $(".view").css("cursor", "pointer")
     });
     
-    $("button2").on("mouseleave", function(){
-    $("button2").css("cursor", "#30391A")
+    $(".view").on("mouseleave", function(){
+    $(".view").css("cursor", "#30391A")
     });
 
 
 //
-$("button3").on("mouseenter", function(){
-  $("button3").css("background-color", "grey")
+$(".view1").on("mouseenter", function(){
+  $(".view1").css("background-color", "grey")
   });
   
-  $("button3").on("mouseleave", function(){
-  $("button3").css("background-color", "#30391A")
+  $(".view1").on("mouseleave", function(){
+  $(".view1").css("background-color", "#30391A")
   });
 
-  $("button3").on("mouseenter", function(){
-    $("button3").css("cursor", "pointer")
+  $(".view1").on("mouseenter", function(){
+    $(".view1").css("cursor", "pointer")
     });
     
-    $("button3").on("mouseleave", function(){
-    $("button3").css("cursor", "#30391A")
+    $(".view1").on("mouseleave", function(){
+    $(".view1").css("cursor", "#30391A")
     });
 
 
