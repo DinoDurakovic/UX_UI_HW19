@@ -57,13 +57,11 @@
   background-color: #30391A !important;
 }
  
-button1 {
+#button1 {
   cursor: pointer;
 }
 
-.usda-main {
 
-}
 
 
 .usda {
@@ -349,13 +347,10 @@ button1 {
 #hi {
   display: flex;
   width: 100% \9;
+  margin: 0;
 }
 
-#hi2 {
-}
 
-#hi3 {
-}
 
 .project2 {
   display:grid;
