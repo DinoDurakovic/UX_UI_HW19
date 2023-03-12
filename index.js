@@ -15,6 +15,15 @@ $("button1").on("mouseleave", function(){
 $("button1").css("background-color", "#30391A")
 });
 
+$("buttonrs").on("mouseenter", function(){
+  $("buttonrs").css("background-color", "grey")
+  });
+  
+  $("buttonrs").on("mouseleave", function(){
+  $("buttonrs").css("background-color", "#5B0F00")
+  });
+  
+
 
 
  
